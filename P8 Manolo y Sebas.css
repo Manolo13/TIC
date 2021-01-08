@@ -1,0 +1,38 @@
+/*
+    CSS Cajas Flotantes
+    Diciembre 2020
+    Manolo y Sebas
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    padding: 20px;
+    border: solid black 3px;
+    width: 25%;
+    float:right;
+}
+
+.roja{
+    background-color: red;
+}
+
+.amarilla{
+    background-color: yellow;
+}
+
+.verde{
+    background-color: green;
+    clear:both;
+    width: 100%;
+}
+
+.negra{
+    background-color: black;
+    color: white;
+    clear: both;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+h1{
+    background-color: white;
+    color: black;
+    border: solid 50px white;
+    border-radius: 50px;
+    text-align: center; 
+}    
+
+.contenedor{
+    background-color: white;
+    border: 3px dotted black;
+    padding: 20px;
+    margin: 20px;
+    width: 70%;
+    margin: auto;
+    
+
+        
+    

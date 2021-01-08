@@ -1,0 +1,26 @@
+/*  
+    P6 CSS Hoja de Estilos
+    Manolo y Sebas
+    Noviembre de 2020
+*/
+
+html{
+    background-color: cadetblue;    
+}
+
+.contenedor{
+    background-color: white;
+    border: 3px dotted black;
+    padding: 20px;
+    margin: 20px;
+    width: 55%;
+    margin: auto;
+}
+
+ol{
+    list-style: upper-roman;
+}
+
+ul{
+    list-style: circle;
+}
