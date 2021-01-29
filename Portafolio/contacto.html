@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Contacto</h1>
+        <form actions="procesar.php"
+        method="post" class="fm">
+           <input type="text" placeholder="Tu Nombre"
+           name="nombre">
+           <input type="email"
+           placeholder="Correo electrónico"
+           name="email">
+           <input type="tel"
+           placeholder="Teléfono"
+           name="telefono">
+           <textarea name="area" cols="20" rows="5"
+           placeholder="Tu mensaje"></textarea>
+           <select name="pais">
+               <option value="España">España</option>
+               <option value="EEUU">EEUU</option>
+               <option value="Italia">Italia</option>
+               <option value="México">México</option>
+               <option value="Inglaterra">Inglaterra</option>
+               <option value="Francia">Francia</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+        
+
+    </body>
+</html>
