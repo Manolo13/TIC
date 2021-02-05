@@ -1,0 +1,32 @@
+/*geografía.css*/
+
+h1{
+    background-color: mediumseagreen;
+    color: white;
+    border: solid 5px black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 650;
+    font-style: italic;
+    background-image: url(fondo%202.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p,div{
+    background-color: white;
+    padding: 20px;
+    border: solid 10px black;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Pangolin', cursive;
+}

@@ -1,0 +1,58 @@
+/*
+    venganzainfernal.css
+*/
+
+h1{
+    background-color: brown;
+    color: white;
+    border: solid 5px black;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: -2px -2px 10px black;
+    text-shadow: -5px 5px 1px black;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 650;
+    font-style: italic;
+    background-image: url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+nav a{
+    text-decoration:underline;
+    color: black;
+    background-color:skyblue;
+    height: 30px;
+    padding-top: 10px;
+}
+p{
+    background-color: white;
+    padding: 20px;
+    border: solid 10px black;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Pangolin', cursive;
+    
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    border: solid 10px black;
+    border-radius: 25px;
+}
+
